@@ -1,0 +1,28 @@
+.dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 150px;
+    background-color: #1274d7;
+    font-family: auto;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+      /* Estilos adicionais para a barra lateral */
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #82b9f0;
+    font-family: auto;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-right: 10px;
+    /* Estilos adicionais para o conteúdo principal */
+}
